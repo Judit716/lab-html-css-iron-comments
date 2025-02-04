@@ -11,9 +11,33 @@
 </head>
 <body>
 
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+    <div>
+    <fieldset>
+        
+    <form action="" method="post" class="form-container">
+        <label for="Name">Your Name:</label>
+        <br>
+        <input type="text" name="username" id="username" placeholder="Name" class="inputype"></input>
+        <br>
+        <label for="Email">Your email:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Email" class="inputype"></input>
+        <br>
+    
+        <label for="Comment">Comment:</label>
+        <br>
+        <textarea id="comment" name="comment" rows="8" cols="33" class="textarea">
+            
+        </textarea>
+        <br>
+        
+        <label for="checkbox" name="subscribe" value="subscribe" class="cb-position"></label>
+        <input type="checkbox" name="subscribe" value="subscribe" class="cb-style">Receive email updates?</input>
+        <br>
+        <button class="estilos-boton">Submit</button>
     </form>
+    </fieldset>
+</div>
 
 </body>
 </html>
